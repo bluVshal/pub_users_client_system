@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import UserClient from './components/UserClient';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <UserClient />
   </React.StrictMode>,
   document.getElementById('root')
 );
